@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 50%;
+    padding: 100px 30px 50px ;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .float-kurs{
+      animation-name: floating;
+      animation-iteration-count: infinite;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+
+  }
+  .float-lusso{
+    animation-name: floating;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+
+}
+.kursgaleria{
+    margin-left: auto;
+  margin-right: auto;
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+.lussogaleria{
+    margin-left: auto;
+  margin-right: auto;
+    padding-top: 5px;
+    width: 100%;
+    height: 100%;
+}
+  @keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 25px); }
+    to   { transform: translate(0, 0px); }    
+}
+
+
+  @media only screen and (min-width: 1024px) {
+
+    .column {
+    float: left;
+    width: 40%;
+    padding: 100px 20px 50px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .kursgaleria{
+    margin-left: auto;
+  margin-right: auto;
+    padding-top: 50px;
+    width: 100%;
+    height: 99%;
+}
+.lussogaleria{
+    margin-left: auto;
+  margin-right: auto;
+    padding-top: 30px;
+    width: 100%;
+    height: 99%;
+}
+}
+
+
+

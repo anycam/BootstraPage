@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='icon' href='Images/fav.ico'>
+    <meta charset="UTF-8">
+    <title>AntiphonFx</title>
+    <!--CustomFont-->
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--CssCustom-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--JsScroll-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--Fontawesome-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+    <!--NavUp-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class='container'>
+            <a class="navbar-brand" href="index.html"><img src="Images/Logo.png" style="width: 80%;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#header">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Productos">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Galeria</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#About">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contacto">Contacto</a>
+                  </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Header/Carrusel-->
+    <header id='header'>
+      <div id='MagicCarousel' class='carousel slide' data-ride='carousel'>
+        <div class='carousel-inner' role='listbox'>
+          <!--ImagesCarousel-->
+          <div class='carousel-item active'>
+          <img class='d-block w-100' src='Images/Car1.png' alt='FirstSlide'>
+          </div>
+            <div class='carousel-item'>
+            <img class='d-block w-100' src='Images/Car2.png' alt='SecondSlide'>
+            </div>
+                  <div class='carousel-item'>
+                  <img class='d-block w-100' src='Images/Car3.png' alt='ThirdSlide'>
+                  </div>
+                  <div class='carousel-item'>
+                      <img class='d-block w-100' src='Images/Car4.png' alt='SecondSlide'>
+                      </div>
+        </div>
+        <a class='carousel-control-prev' href='#MagicCarousel' role='button' data-slide='prev'>
+          <span class='carousel-control-prev-icon'></span>
+          <span class='sr-only'>Previous</span>
+        </a>
+        <a class='carousel-control-next' href='#MagicCarousel' role='button' data-slide='next'>
+            <span class='carousel-control-next-icon'></span>
+            <span class='sr-only'>Next</span>
+          </a>
+      </div>
+
+
+
+    </header>
+    <!--Productos-->
+    <section class='container text-center p-5'>
+    <div class='cajas my-5' id='Productos'>
+    <div class="card-deck">
+      <div class="card">
+        <img src="Images/Kurs.png" style="width: 30%;" class="card-img-top img-fluid mx-auto d-block " alt="kurs">
+        <div class="card-body">
+          <h5 class="card-title">Kurs Vibrato</h5>
+          <p class="card-text">Kurs Vibrato ofrece desde un vibrato con texturas lo fi, hasta un chorus vintage, retomando aquellos efectos slap back de cintas viejas, todo acompañado de un modo RADIO que proporciona un filtro de medios. 
+            Mejor escuchalo tu mismo en nuestros demos.</p>
+            <p>Precio con envío incluido: México​ $2,799 mxn </p>
+            <p>Precio con envío incluido: U.S.A. $204 usd </p>
+          <p class="card-text"><small class="text-muted">Para mas informacion selecciona > Info/Demo</small></p>
+                    <!--Compra display-->
+                    <div class="btn-group" role="group">
+                      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle btn-success btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Comprar con PayPal
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <a class="dropdown-item" target='_blank' href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LS3GL4B5BXNQS">Compra en Mexico</a>
+                        <a class="dropdown-item" target='_blank' href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FL4W4R89THBFC">Compra en USA</a>
+                      </div>
+                    </div>
+                    <!--Compra fin-->
+           <a href="#Kurs" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Info/Demo</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="Images/Lusso.png" style="width: 30%;" class="card-img-top mx-auto d-block" alt="lusso">
+        <div class="card-body">
+          <h5 class="card-title">Lusso Drive</h5>
+          <p class="card-text">Lusso Drive es una unidad profesional de saturacion con diferentes clippings, ecualizador, mezcla de señal, booster y nuestro nuevo modo -Firepass-.
+            Escuchalo por ti mismo. </p>
+            <p>Precio con envío incluido: México​ $3,200 mxn </p>
+            <p>Precio con envío incluido: U.S.A. $224 usd </p>
+          <p class="card-text"><small class="text-muted">Para mas informacion selecciona > Info/Demo</small></p>
+          <!--Compra display-->
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle btn-success btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Comprar con PayPal
+            </button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item" target='_blank' href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JEWBLSHBY6UKJ">Compra en Mexico</a>
+              <a class="dropdown-item" target='_blank' href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=THCE2US7BRVRU">Compra en USA</a>
+            </div>
+          </div>
+          <!--Compra fin-->
+           <a href="#Lusso" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Info/Demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!--Kurs section-->
+  <div class='Ksection my-5' id='Kurs'>
+  <div class="card text-center">
+      <div class="card-body">
+        <h3>Kurs Vibrato </h3>
+      </div>
+    </div>
+  <div class="card-group">
+
+    <div class="card m-5">
+      <img src="Images/KFront.png" style="width: 60%;" class="card-img-top" alt="Front">
+      <div class="card-body">
+        <h5 class="card-title">Descripción</h5>
+        <p class="card-text">Nuestro pedal Kurs es un vibrato clásico con  un tono degradado, dando un sonido característico el cual denominaremos VHS vibrato con una segunda variante a vibe/chorus, ambos con una opción de salida radio (lo fi), bastante sencillo de usar, obteniendo tonos similares a un chorus espacial o vibrato lo fi fácilmente.</p>
+        <p class="card-text"><small class="text-muted">Visita nuestro demo para escucharlo en accion.</small></p>
+        <!--Compra-->
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle btn-success btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Comprar con PayPal
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" target='_blank' href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JEWBLSHBY6UKJ">Compra en Mexico</a>
+            <a class="dropdown-item" target='_blank' href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=THCE2US7BRVRU">Compra en USA</a>
+          </div>
+        </div>
+        <!--Demos-->
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Demo
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" target='_blank' href="https://youtu.be/6yfyECAkFLs">Demo 1</a>
+            <a class="dropdown-item" target='_blank' href="#">Demo 2</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="card m-5">
+      <img src="Images/KIn.jpg" style="width: 60%;" class="card-img-top" alt="InPcb">
+      <div class="card-body">
+        <h5 class="card-title">¿Qué hay dentro?</h5>
+        <p class="card-text">En su interior cuenta con un potenciometro para modificar valores como Dry/Wet y un switch para un modo extra con menor intensidad en ambos efectos, aunque probablemente sin modificarlo lo disfrutarás bastante, teniendo un ajuste clásico en su modo de fabrica.</p>
+        <p class="card-text"><small class="text-muted">Para mas informacion de su funcionamiento consulta nuestro video guia.</small></p>
+        <a href="https://www.youtube.com/watch?v=UQ-CXPHIjc0" target='_blank' class="btn btn-outline-secondary btn-lg active" role="button" aria-pressed="true">Video Guia</a>
+      </div>
+    </div>
+    <div class="card m-5">
+      <img src="Images/KSide.jpg" style="width: 60%;" class="card-img-top" alt="Side">
+      <div class="card-body">
+        <h5 class="card-title">Características funcionales</h5>
+        <p class="card-text">Kurs Vibrato funciona solo con un adaptador de 9 voltios (centro negativo) de corriente directa. 
+          Consume 50 mA.            
+          Debe utilizarse solo con una fuente de especificaciones marcadas en este contenido.</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--Kurs Finish-->
+  <!--Lusso-->
+  <div class='Lsection my-5' id='Lusso'>
+      <div class="card text-center">
+          <div class="card-body">
+              <h3>Lusso Drive </h3>
+          </div>
+        </div>
+      <div class="card-group">
+  <div class="card-group">
+    <div class="card m-5">
+      <img src="Images/LFront.png" style="width: 60%;" class="card-img-top" alt="Front">
+      <div class="card-body">
+        <h5 class="card-title">Descripción</h5>
+        <p class="card-text">Lusso Drive es una unidad profesional de saturacion, obteniendo rangos low gain hasta medium gain, pasando por sus etapas de ecualización y su mixer de señal limpia/efecto, agregando sus variadas opciones de clipping internas, totalmente ajustables, obteniendo una gran variedad de tonalidades con diodos de germanio, silicon o LED, en diferentes configuraciones según el usuario ajuste.
+          Su booster con el switch -Thunder (Momentary/Latch)- nos proporcionara mayor volumen y mas texturas de saturacion que iran desde un agregado de drive, distorsion y tonalidades fuzz, según sea su ajuste interno de clipping.</p>
+        <p class="card-text"><small class="text-muted">Visita nuestro demo para escucharlo en accion.</small></p>
+        <!--Compra-->
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle btn-success btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Comprar con PayPal
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" target='_blank' href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JEWBLSHBY6UKJ">Compra en Mexico</a>
+            <a class="dropdown-item" target='_blank' href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=THCE2US7BRVRU">Compra en USA</a>
+          </div>
+        </div>
+        <!--Demo-->
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Demo
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" target='_blank' href="#">Demo 1</a>
+            <a class="dropdown-item" target='_blank' href="#">Demo 2</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="card m-5">
+      <img src="Images/LInside.jpg" style="width: 60%;" class="card-img-top" alt="InPcb">
+      <div class="card-body">
+        <h5 class="card-title">¿Qué hay dentro?</h5>
+        <p class="card-text">En su interior encontraremos en orden ascendente el switch del modo -Thunder- que cambiara entre modo Momentary o Latch el botón de ON/OFF de nuestro booster.
+          Después tendremos un switch para seleccionar la zona de clippeo para nuestro booster ( 2 opciones)
+          Finalmente un switch para seleccionar la zona de clippeo de nuestro Overdrive ( 4 opciones).</p>
+        <p class="card-text"><small class="text-muted">Para mas informacion de su funcionamiento consulta nuestro video guia.</small></p>
+        <a href="#" class="btn btn-outline-secondary btn-lg active" role="button" aria-pressed="true">Video Guia</a>
+      </div>
+    </div>
+    <div class="card m-5">
+      <img src="Images/LFuncion.png" style="width: 60%;" class="card-img-top" alt="Side">
+      <div class="card-body">
+        <h5 class="card-title">Características funcionales</h5>
+        <p class="card-text">Lusso Drive funciona solo con un adaptador de 9 voltios (centro negativo) de corriente directa. 
+          Consume 115 mA.
+          Debe utilizarse solo con una fuente de especificaciones marcadas en este contenido.</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--Lusso Fin-->
+
+  <!--Nosotros/Info/ Casi acabamos!-->
+
+  <section class='container text-center p-5'>
+  <div class="card mb-3" id='About'>
+    <img src="Images/About.JPG" class="card-img-top img-fluid" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Sobre Nosotros</h5>
+      <p class="card-text">Antiphon FX es una pequeña empresa ubicada en CDMX México, orientada al desarrollo, manufactura y elaboración de dispositivos electrónicos aplicables en la industria musical, actualmente desarrollando en su catálogo efectos para guitarra y diferentes instrumentos.
+        Nuestro objetivo es crear artefactos que faciliten en la industria musical el proceso creativo, como bien sabemos la generación de ambientes, texturas y sentidos en el tema sonoro es de los principales temas a considerar al crear una obra artística, es así como nace la idea de crear esta empresa y generar más herramientas creativas al extenso, basto y maravilloso mundo músical.</p>
+    </div>
+  </div>
+</section>
+
+<!--Contacto-->
+<section class='container text-center p-2'>
+  <div class='Social' id='Contacto'>
+
+<h2>Contacto y Redes sociales</h2>
+<p>Cualquier duda o comentario contactanos en nuestras redes sociales o en el siguiente correo electronico: antiphonfx@gmail.com</p>
+<div class='d-flex flex-row justify-content-center'>
+  <div class='p-4'>
+  <a target='_blank' href='https://www.facebook.com/AntiphonFX/'>  
+    <i class="fa fa-facebook-square" style="font-size: 70px; color: #454545;"></i>
+  </a>
+ </div>
+ <div class='p-4'>
+    <a target='_blank' href='https://www.instagram.com/antiphonfx/'>  
+      <i class="fa fa-instagram" style="font-size: 70px; color: #454545;"></i>
+    </a>
+   </div>
+   <div class='p-4'>
+      <a target='_blank' href='https://www.youtube.com/channel/UCf47bORd-K6CwHoMbpD7UDQ'>  
+        <i class="fa fa-youtube-square" style="font-size: 70px; color: #454545;"></i>
+      </a>
+     </div>
+</div>
+
+</section>
+  
+
+    <!--BootScripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    
+
+    
+  </body>
+</html>
